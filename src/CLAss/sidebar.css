@@ -1,0 +1,16 @@
+.paraclass{
+    font-size:1.17rem;
+    font-style: fantasy;color:black;  translate: rotateX(0deg);
+}
+#list1{
+    display:flex;
+}
+#list1 li{
+      padding-right:2rem;   padding-left:5rem; align-items: center;
+}
+#list1 li a{
+    color:black; font-size: 21px; text-decoration:none;
+}
+#footerlist li a{
+    color:black; font-size: 15px; text-decoration:none;
+}
