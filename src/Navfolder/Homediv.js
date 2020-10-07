@@ -3,7 +3,7 @@ import "../CSS/home1.css"
 export default class Homediv extends Component {
     render() {
         return (
-            <section id="home">
+            <section id="home1">
                 <h1 className="h text-center w3-animate-left">WELCOME TO CAREER-GUIDANCE</h1>
                 <p className="para text-center">
                 Career guidance help students understand their strengths and weaknesses and then match 

@@ -4,19 +4,26 @@ import "./sidebar.css"
 import Photo from "./Photo.js"
 import Photo1 from "./Photo1.js"
 import Parallax from "./Parallax.js"
+import Kul2 from "../slider/Sportdrop"
+import Kul3 from "../slider/Exercise"
+import Kul1 from "../slider/Fooddrop"
+import Kul4 from "../slider/Mentaldrop"
+import Kul5 from "../slider/Acaddrop"
+import Kul6 from "../slider/Parentdrop"
 export default class CEight extends Component {
     render() {
         return ( 
         <div>
         <div class="container">
-        <ul  id="list1">
-            <li><a href="#photo1">Food</a></li>
-            <li><a href="#sport1">Sports</a></li>
-            <li><a href="#acad1">Academics</a></li>
-            <li><a href="#exer1">Exercise</a></li>
-            <li><a href="#ment1">Mental ability</a></li>
-            <li><a href="#pare1">Parents</a></li>
-        </ul></div>
+        <ul id="list1">
+        <li><Kul1 /></li>
+        <li><Kul2 /></li>
+        <li><Kul3 /></li>
+        <li><Kul4/></li>
+        <li><Kul5 /></li>
+        <li><Kul6 /></li>
+        </ul>
+        </div>
         <Photo />
         <Parallax />
          <div id="seconddiv">

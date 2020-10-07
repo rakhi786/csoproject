@@ -3,14 +3,18 @@
     font-style: fantasy;color:black;  translate: rotateX(0deg);
 }
 #list1{
-    display:flex;
+    display:flex; padding-top:0.5rem;
 }
 #list1 li{
-      padding-right:2rem;   padding-left:5rem; align-items: center;
-}
-#list1 li a{
-    color:black; font-size: 21px; text-decoration:none;
+      padding-right:4rem;   padding-left:2rem; align-items: center;
 }
 #footerlist li a{
     color:black; font-size: 15px; text-decoration:none;
+}
+.div12{
+    display: none;
+}
+.atheltics:hover + .div12{
+  display:block;
+  color: red;
 }

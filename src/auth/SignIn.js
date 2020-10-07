@@ -15,7 +15,8 @@ export default class SignIn extends Component {
     }
      render() {
         return (
-            <form class="authentication-form " onSubmit={this.handleSubmit}>
+            <div className="form1 white">
+            <form class="authentication-form" onSubmit={this.handleSubmit}>
             <div class="container form-group form-area my-auto mx-auto">
             <div class="form-heading text-center">
             <h3 class="text-info text-uppercase ">SIGNIN </h3>
@@ -32,6 +33,7 @@ export default class SignIn extends Component {
              </div>
             </div> 
             </form>
+            </div>
         )
     }
 }

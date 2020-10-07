@@ -28,7 +28,8 @@ export default class SignUp extends Component {
     }
      render() {
         return (
-            <form class="white " onSubmit={this.handleSubmit}>
+            <div class="form2 white">
+            <form  onSubmit={this.handleSubmit}>
                <div class="container form-group form-area my-auto mx-auto">
                <div class="form-heading text-center">
                <h3 class="text-info text-uppercase ">Signup </h3>
@@ -48,6 +49,7 @@ export default class SignUp extends Component {
                 </div>
                </div> 
                </form>
+               </div>
         )
     }
 }

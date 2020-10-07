@@ -35,6 +35,9 @@ body{
 .pad1{
     height:280px!important;
 }
+.pad2{
+    padding-right: 3rem!important;
+}
 .img-container{
     overflow: hidden!important;
 }
