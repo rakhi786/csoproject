@@ -1,0 +1,10 @@
+<div class="row1">
+                       <div>
+                        <img src="" alt="" class="responsive-img materialboxed"></img>
+                       </div>
+                   <div class="campust">
+                       <h3 class="indigo-text text-darken-4 text-center">IIT Delhi Campus Tour</h3>
+                       <iframe width="350" height="330" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   </div>
+                </div>
+                <div><p> .For  more Info <a href="https://www.iitm.ac.in/">visit here</a></p></div>

@@ -20,6 +20,8 @@ import Govt from './CLAss/Govt.js'
 import Footer from './Navfolder/Footer'
 import SignIn from './auth/SignIn'
 import SignUp from './auth/SignUp'
+import IIT from "./EnginerringFolder/IIT"
+import NIT from "./EnginerringFolder/NIT"
 export class App extends Component {
   render(){
   return (
@@ -40,6 +42,8 @@ export class App extends Component {
      <Route exact path="/arts" component={Arts}/>
      <Route exact path="/commerce" component={Commerce}/>
      <Route exact path="/govt" component={Govt}/>
+     <Route exact path="/iits" component={IIT}/>
+     <Route exact path="/nits" component={NIT} />
      <Redirect to="/" /> 
      </Switch>
      <Footer />

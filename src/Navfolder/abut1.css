@@ -153,3 +153,55 @@
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
+.bg-lightgreen {
+    background-color: #F2FBFA;
+}
+.row-slider-l-arrow-wrap, .row-slider-r-arrow-wrap {
+    position: absolute;
+    z-index: 90;
+    top: 0;
+    bottom: 0;
+    display: flex;
+}
+.row-slider-indicators-wrap {
+    position: absolute;
+    z-index: 100;
+    top: 0.5em;
+    left: 0;
+    right: 0;
+    display: flex;
+}
+.banner-image{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+	background-position: center center;
+	background-image:url(https://mazhr.com/wp-content/uploads/2020/10/Untitled-1.png);
+}
+.banner .banner-content {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    padding: 1em;
+}
+.wp-block-spacer {
+    clear: both;
+}
+.wp-block-columns {
+    display: flex;
+}
+.wp-block-column1{
+	width:85%;
+}
+.wp-block-column {
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+.banner {
+    min-height: 30em;
+    display: flex;
+    position: relative;
+}

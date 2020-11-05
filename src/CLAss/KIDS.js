@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import img1 from "../images/4.jpeg"
-import img2 from "../images/5.jpg"
+import img1 from "../images/img5.jpg"
 import "./engineering.css"
 import "../Navfolder/file.css"
 import Eng from "../Card12/Eng"
@@ -17,18 +16,6 @@ export default class KIDS extends Component {
     return (
         <div className="engineercont" >
         <Slider {...settings}>
-          <div>
-          <img src="https://jeeadv.ac.in/img/iitd.jpg" className="responsive-img1 center" alt=""/>
-          </div>
-          <div>
-          <img src={img1} className="responsive-img1 center" alt=""/>
-          </div>
-          <div>
-          <img src={img2} className="responsive-img1 center" alt=""/>
-          </div>
-          <div>
-          <img src={img1} className="responsive-img1 center" alt=""/>
-          </div>
           <div>
           <img src={img1} className="responsive-img1 center" alt=""/>
           </div>

@@ -5,6 +5,9 @@ import ParticlesBg  from   "particles-bg";
 import './file.css'
 import JsonData from './data.json';
 import Career from "./CareerGui"
+import Homeele from "./Homeelement"
+import WHY from "./WHYus"
+import Goal from "./Goals"
 export default class Home extends Component {
     render() {
         return (
@@ -20,7 +23,8 @@ export default class Home extends Component {
             <a href="/students" className="button btn project-btn">CLICK HERE</a>
             </section>
             </header>
-            <Career />
+            <Goal/>
+            <WHY/>
             </>
         )
     }
